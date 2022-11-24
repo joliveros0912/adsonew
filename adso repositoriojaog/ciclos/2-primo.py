@@ -1,4 +1,4 @@
-#"""2.	Determinar si un numero es o no es primo."""...........
+#"2.	Determinar si un numero es o no es primo."()
 
 num = int(input("ingrese un número    "))
 cont = 0

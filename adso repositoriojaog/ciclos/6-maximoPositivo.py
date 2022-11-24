@@ -1,6 +1,6 @@
 """6. Calcular el máximo de números positivos introducidos por teclado,
     sabiendo que metemos números hasta que introduzcamos uno negativo.
-    El negativo no cuenta."""
+    El negativo no cuenta."""()
 
 num=0
 maximo=0

@@ -1,4 +1,4 @@
-"""5.	¿Cuáles y cuántos son los números primos comprendidos entre 1 y 1000?."""
+"¿Cuáles y cuántos son los números primos comprendidos entre 1 y 1000?."()
 cont=0
 for j in range (1,1000+1):
     suma= 0

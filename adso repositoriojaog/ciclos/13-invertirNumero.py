@@ -1,5 +1,5 @@
 """13. Solicitar al usuario un número de hasta 9 dígitos e imprimirlo en orden contrario.
-Ej. digito 6754 imprimo 4576."""
+Ej. digito 6754 imprimo 4576."""()
 
 num = int(input("Ingresar un número de hasta 9 dígitos:  "))
 if num>0 and num<1000000000:

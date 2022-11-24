@@ -1,4 +1,4 @@
-# Algoritmo para hallar el m.c.d de dos números m y n por el algoritmo de Euclides.
+# Algoritmo para hallar el m.c.d de dos números m y n por el algoritmo de Euclides.()
 
 num1=int(input("Ingrese el número 1:   "))
 num2=int(input("Ingrese el número 2:   "))
