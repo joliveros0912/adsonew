@@ -1,0 +1,186 @@
+/*--------------
+estilo global
+-------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200&family=Mulish:ital,wght@0,300;0,400;1,200&family=Oswald:wght@200;600&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200&family=Mulish:ital,wght@0,300;0,400;1,200&family=Oswald:wght@200;600&family=Roboto:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+
+/*--------------
+estilo Encabezado
+-------------*/
+
+header {
+    box-sizing: border-box;
+    background: #FFD700;
+    /*color encabexado*/
+    padding: 30px;
+    width: 100%;
+    height: 135px;
+    position: relative;
+}
+
+h1 {
+    color: #000000 ;
+    /*letra titulo*/
+    font-size: 49px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 320px;
+    height: 145px;
+    border-radius: 20%;
+    margin-left: 10px;
+    border: 2px solid rgb(2, 2, 2)
+}
+
+
+/* Estilos para el menú */
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    background-color: #000000;
+}
+
+.menu li {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFD700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/*imagenes*/
+.cont {
+    text-align: center;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 10px;
+  }
+
+  .image-box {
+    width: 1040px;
+    height: 305px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid rgb(2, 2, 2);
+    position: relative;
+  }
+
+  .image-box ul {
+    display: flex;
+    animation: cambio 30s linear infinite;
+    width: 400%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+  }
+
+  .image-box li {
+    width: 30%;
+    list-style: none;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @keyframes cambio {
+    0% { margin-left: 0; }
+    100% { margin-left: -300%; }
+  }
+
+/*boton credito y ubicacion*/
+.contr {
+    width: 70%;
+    margin-left: 335px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.btn {
+    width: 350px;
+    height: 100px;
+    background-color: #FFD700;
+    color: white;
+    font-size: 25px;
+    line-height: 140px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid rgb(2, 2, 2); 
+  }
+
+.btn:hover {
+    background-color: #0066FF;
+  }
+
+.ubi {
+    width: 70%;
+    margin-left: 335px;
+    position: relative;
+}
+
+.ubi p {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD700;
+}
+
+.mapaubi {
+    width: 1000px;
+    height: 410px;
+    border-radius: 4%;
+    position: relative;
+    border: 2px solid rgb(2, 2, 2);
+}
+
+
+/*piepag*/
+
+.footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer a {
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
